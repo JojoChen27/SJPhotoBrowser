@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFFC9D1B1F0B459B006CFC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC9D1A1F0B459B006CFC5D /* main.m */; };
+		EFFC9D1E1F0B459B006CFC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC9D1D1F0B459B006CFC5D /* AppDelegate.m */; };
+		EFFC9D211F0B459B006CFC5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFC9D201F0B459B006CFC5D /* ViewController.m */; };
+		EFFC9D241F0B459B006CFC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFC9D221F0B459B006CFC5D /* Main.storyboard */; };
+		EFFC9D261F0B459B006CFC5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFC9D251F0B459B006CFC5D /* Assets.xcassets */; };
+		EFFC9D291F0B459B006CFC5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFC9D271F0B459B006CFC5D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFFC9D161F0B459B006CFC5D /* SJPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFC9D1A1F0B459B006CFC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFFC9D1C1F0B459B006CFC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFFC9D1D1F0B459B006CFC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFFC9D1F1F0B459B006CFC5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFFC9D201F0B459B006CFC5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFFC9D231F0B459B006CFC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFFC9D251F0B459B006CFC5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFFC9D281F0B459B006CFC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFFC9D2A1F0B459B006CFC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFC9D131F0B459B006CFC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFFC9D0D1F0B459B006CFC5D = {
+			isa = PBXGroup;
+			children = (
+				EFFC9D181F0B459B006CFC5D /* SJPhotoBrowser */,
+				EFFC9D171F0B459B006CFC5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFC9D171F0B459B006CFC5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC9D161F0B459B006CFC5D /* SJPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFC9D181F0B459B006CFC5D /* SJPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC9D1C1F0B459B006CFC5D /* AppDelegate.h */,
+				EFFC9D1D1F0B459B006CFC5D /* AppDelegate.m */,
+				EFFC9D1F1F0B459B006CFC5D /* ViewController.h */,
+				EFFC9D201F0B459B006CFC5D /* ViewController.m */,
+				EFFC9D221F0B459B006CFC5D /* Main.storyboard */,
+				EFFC9D251F0B459B006CFC5D /* Assets.xcassets */,
+				EFFC9D271F0B459B006CFC5D /* LaunchScreen.storyboard */,
+				EFFC9D2A1F0B459B006CFC5D /* Info.plist */,
+				EFFC9D191F0B459B006CFC5D /* Supporting Files */,
+			);
+			path = SJPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		EFFC9D191F0B459B006CFC5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFFC9D1A1F0B459B006CFC5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFC9D151F0B459B006CFC5D /* SJPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFC9D2D1F0B459B006CFC5D /* Build configuration list for PBXNativeTarget "SJPhotoBrowser" */;
+			buildPhases = (
+				EFFC9D121F0B459B006CFC5D /* Sources */,
+				EFFC9D131F0B459B006CFC5D /* Frameworks */,
+				EFFC9D141F0B459B006CFC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJPhotoBrowser;
+			productName = SJPhotoBrowser;
+			productReference = EFFC9D161F0B459B006CFC5D /* SJPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFC9D0E1F0B459B006CFC5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SuperJJ;
+				TargetAttributes = {
+					EFFC9D151F0B459B006CFC5D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8QJMPQM638;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFFC9D111F0B459B006CFC5D /* Build configuration list for PBXProject "SJPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFFC9D0D1F0B459B006CFC5D;
+			productRefGroup = EFFC9D171F0B459B006CFC5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFC9D151F0B459B006CFC5D /* SJPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFC9D141F0B459B006CFC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFC9D291F0B459B006CFC5D /* LaunchScreen.storyboard in Resources */,
+				EFFC9D261F0B459B006CFC5D /* Assets.xcassets in Resources */,
+				EFFC9D241F0B459B006CFC5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFC9D121F0B459B006CFC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFC9D211F0B459B006CFC5D /* ViewController.m in Sources */,
+				EFFC9D1E1F0B459B006CFC5D /* AppDelegate.m in Sources */,
+				EFFC9D1B1F0B459B006CFC5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFFC9D221F0B459B006CFC5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFC9D231F0B459B006CFC5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFFC9D271F0B459B006CFC5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFC9D281F0B459B006CFC5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFFC9D2B1F0B459B006CFC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFFC9D2C1F0B459B006CFC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFC9D2E1F0B459B006CFC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QJMPQM638;
+				INFOPLIST_FILE = SJPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.jj.SJPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFFC9D2F1F0B459B006CFC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8QJMPQM638;
+				INFOPLIST_FILE = SJPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.super.jj.SJPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFC9D111F0B459B006CFC5D /* Build configuration list for PBXProject "SJPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFC9D2B1F0B459B006CFC5D /* Debug */,
+				EFFC9D2C1F0B459B006CFC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFC9D2D1F0B459B006CFC5D /* Build configuration list for PBXNativeTarget "SJPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFC9D2E1F0B459B006CFC5D /* Debug */,
+				EFFC9D2F1F0B459B006CFC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFC9D0E1F0B459B006CFC5D /* Project object */;
+}
